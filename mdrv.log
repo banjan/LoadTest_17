@@ -1,0 +1,39 @@
+Virtual User Script started at : 2017-08-08 06:51:00
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 2008 R2, Browser: Firefox, initialized on 2017/08/08 at 06:50:59 (0000.000s)
+
+Running Vuser...
+Starting iteration 1.
+t=00000823ms: ** 1: Navigate to "http://qa.gamestop.com/" ** started    [MsgId: MMSG-205180]
+t=00009930ms: ** 1: Navigate to http://qa.gamestop.com/ ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00009953ms: ** 2: For (var i = 1; i < 3; i++) ** started    [MsgId: MMSG-205180]
+t=00010003ms: ** 2: For loop 1 ** started    [MsgId: MMSG-205180]
+t=00010715ms: ** 2.1: Click on Find games, consoles,... textbox ** started    [MsgId: MMSG-205180]
+t=00011397ms: ** 2.1: Click on Find games, consoles,... textbox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00011911ms: ** 2.2: Type TC.getParam("SKU") in Find games, consoles,... textbox ** started    [MsgId: MMSG-205180]
+t=00022667ms: ** 2.2: Type Test1235 in Find games, consoles,... textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00023190ms: ** 2.4: Press Enter key on Find games, consoles,... textbox ** started    [MsgId: MMSG-205180]
+t=00027505ms: ** 2.4: Press Enter key on Find games, consoles,... textbox ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00028027ms: ** 2.5: Click on Add to Cart javascript_link ** started    [MsgId: MMSG-205180]
+t=00029408ms: ** 2.5: Click on Add to Cart javascript_link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00030241ms: ** 2: For loop 1 ** ended    [MsgId: MMSG-205180]
+t=00030251ms: ** 2: For loop 2 ** started    [MsgId: MMSG-205180]
+t=00030814ms: ** 2.1: Click on Find games, consoles,... textbox ** started    [MsgId: MMSG-205180]
+t=00031277ms: ** 2.1: Click on Find games, consoles,... textbox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00031794ms: ** 2.2: Type TC.getParam("SKU") in Find games, consoles,... textbox ** started    [MsgId: MMSG-205180]
+t=00035809ms: ** 2.2: Type Test1236 in Find games, consoles,... textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00036332ms: ** 2.4: Press Enter key on Find games, consoles,... textbox ** started    [MsgId: MMSG-205180]
+t=00040013ms: ** 2.4: Press Enter key on Find games, consoles,... textbox ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00040532ms: ** 2.5: Click on Add to Cart javascript_link ** started    [MsgId: MMSG-205180]
+t=00041793ms: ** 2.5: Click on Add to Cart javascript_link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00042704ms: ** 2: For loop 2 ** ended    [MsgId: MMSG-205180]
+t=00042760ms: ** 2: For (var i = 1; i < 3; i++) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00043274ms: ** 3: Click on Checkout link ** started    [MsgId: MMSG-205180]
+t=00046357ms: ** 3: Click on Checkout link ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+t=00046879ms: ** 4: Click on 1 textbox ** started    [MsgId: MMSG-205180]
+t=00068223ms: ** 4: Click on 1 textbox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00068747ms: ** 5: Type TC.getParam("Qty") in 1 textbox ** started    [MsgId: MMSG-205180]
+t=00069589ms: ** 5: Type 3 in 1 textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00070107ms: ** 6: Click on Update  ** started    [MsgId: MMSG-205180]
+t=00086130ms: ** 6: Click on Update  ** was stopped    [MsgId: MMSG-205180]
+Ending iteration 1.
+Abort was called from an action
